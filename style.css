@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #fff;
+}
+
+.menu-bar {
+  background: #1e90ff;
+  padding: 30px;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.menu-bar p {
+  color: #82af19;
+  font-size: 26px;
+}
+
+.nav-bar {
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  padding-right: 30px;
+}
+
+.nav-bar a:hover {
+  color: #82af19;
+}
+
+button {
+  display: flex;
+  font-size: 14px;
+  color: #030303;
+  padding: 0 60px;
+  margin-left: 600px;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 780px) {
+  nav {
+    width: 100%;
+  }
+}
